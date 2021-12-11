@@ -1,0 +1,27 @@
+{
+  "scenario": "city2018",
+  "host": "localhost",
+  "port": 12300,
+  "scheduling": false,
+  "timeout": 40000,
+  "times": false,
+  "notifications": false,
+  "queued": false,
+  "entities": [
+    {"name": "connectionA1", "username": "agentA1", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA2", "username": "agentA2", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA3", "username": "agentA3", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA4", "username": "agentA4", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA5", "username": "agentA5", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA6", "username": "agentA6", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA7", "username": "agentA7", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA8", "username": "agentA8", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA9", "username": "agentA9", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA10", "username": "agentA10", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA11", "username": "agentA11", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA12", "username": "agentA12", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA13", "username": "agentA13", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA14", "username": "agentA14", "password": "1", "iilang": false, "xml": false},
+    {"name": "connectionA15", "username": "agentA15", "password": "1", "iilang": false, "xml": false}
+  ]
+}
