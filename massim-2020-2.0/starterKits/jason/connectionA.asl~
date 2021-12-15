@@ -3,17 +3,107 @@
 /* Initial beliefs and rules */
 
 /* Initial goals */
-
+getblock(f).
+requestblock(f).
+stop(f).
+hasgoal(f).
+checkfailed(0).
 !start.
 
 /* Plans */
 
-+!start : true <- 
-	.print("hello massim world.").
++step(StepID) : true <-
+	if(hasgoal(f)){
+	!searchDispenser;}
+	if(stop(t)){
+	!checkDispenser;
+	}.
 
-+step(X) : true <-
-	.print("Received step percept.").
++!checkDispenser:true<-
+	?thing(A, B, Type, Details);
+	X=A[percept];Y=B[percept];
+	if(Type==dispenser & not(X==0 & Y==1)){
+		-+stop(f);
+		-+hasgoal(f);
+		-+checkfailed(C+1);
+	}.
+
+
++!searchDispenser:true<-
+	?thing(A, B, Type, Details);
+	X=A[percept];Y=B[percept];
+	if(Type==dispenser){
+		if(hasgoal(f)){
+		-+hasgoal(t);
+		-+mygoal(Details[percept]);
+		}
+		 -+goal(X,Y-1);
+	}.
 	
-+actionID(X) : true <- 
-	.print("Determining my action");
-	skip.
++actionID(ActionID):true <- 
+		if(stop(f)){
+		!move;}.
+		//if(not getblock(t) &not requestblock(t)){
+		//!requestBlock;}
+		//if(not getblock(t) &not  requestblock(f)){
+		//!getBlock;}.
+
++!requestBlock:true<-
+		request(s);
+		-+requestblock(t).
+		
++!getBlock:true<-
+		attach(s);
+		-+getblock(t);
+		-+stop(f);
+		-+hasgoal(f).
+
++!move:true <-
+	if(not hasgoal(t)){
+		!randommove;
+	}
+	if(hasgoal(t)){
+		!goalmove;
+	}.
+	
+		
++!randommove: .random(Number)<-
+	if(Number <= 0.25){
+		move(n);
+	}
+	if(Number<=0.50){
+		move(s);
+	}
+	if(Number<=0.75){
+		move(w);
+	}
+	if( Number <=1){
+		move(e);
+	}.
+
++!goalmove: true<-
+	?goal(X,Y);
+	if(X>0){
+		move(e);
+		-+goal(X-1,Y);
+		!goalmove;
+	}
+	if(X<0){
+		move(w);
+		-+goal(X+1,Y);
+		!goalmove;
+	}
+	if(Y<0){
+		move(n);
+		-+goal(X,Y+1);
+		!goalmove;
+	}	
+	if(Y>0){
+		move(s);
+		-+goal(X,Y-1);
+		!goalmove;
+	}
+	if(X==0 & Y==0){
+		-+stop(t);
+	}.
+
