@@ -12,60 +12,94 @@ hasgoal(f).
 /* Plans */
 
 +step(StepID) : true <-
-	if(hasgoal(f)){
-	!searchDispenser;}
-	if(stop(t)){
-	!checkDispenser;
+	if(hasgoal(f) & getblock(f)){
+	!searchDispenser;
 	}
-	if(requestblock(f) & stop(t)){
+	if(requestblock(f) & stop(t) & getblock(f)){
+	!checkDispenser;
 	!checkRequest;
 	}
 	if(getblock(f) &requestblock(t) & stop(t)){
 	!checkAttach;
-	}.
-
+	}
+	if(hasgoal(f) & getblock(t)){
+	!searchTaskboard;
+	}
+	if(stop(t) & getblock(t)){
+	!checkTaskboard;
+	}
+	.
++!searchTaskboard :true<-
+	?thing(X, Y, Type, Details);
+	-+norandomm(f);
+	if(Type==taskboard){
+		-+hasgoal(t);
+		-+norandomm(t);
+		 -+goal(Type,X,Y,Block);
+	}.	
+	
++!checkTaskboard:true<-
+	?thing(X, Y, Type, Details);
+	if(Type==taskboard ){
+		if(X>1 | X<=-2| Y>1 | Y<=-2){
+		-+stop(f);
+		-+hasgoal(f);}
+	}.	
+	
 +!searchDispenser:true<-
-	?thing(A, B, Type, Details);
-	X=A[percept];Y=B[percept];
+	?thing(X, Y, Type, Details);
 	-+norandomm(f);
 	if(Type==dispenser){
-		if(hasgoal(f)){
 		-+hasgoal(t);
-		-+mygoal(Details[percept]);
-		}
 		-+norandomm(t);
-		 -+goal(X,Y-1);
+		 -+goal(Type,X,Y-1,Details);
 	}.		
 				
 +!checkDispenser:true<-
-	?thing(A, B, Type, Details);
-	X=A[percept];Y=B[percept];
+	?thing(X, Y, Type, Details);
 	if(Type==dispenser & not(X==0 & Y==1)){
 		-+stop(f);
 		-+hasgoal(f);
+		-+requestblock(f);
 	}.	
+	
 +!checkAttach:true<-
-	?lastActionResult(result);
-	if(not result==failed_target){
+	?lastActionResult(Result);
+	?lastAction(Type);
+	if(Result==success & Type ==attach){
 		-+getblock(t);
+		-+stop(f);
+		-+hasgoal(f);
+		-+requestblock(f);
+	}
+	if(Result==failed_target & Type ==attach){
+		-+stop(f);
+		-+hasgoal(f);
+		-+requestblock(f);
 	}.	
 	
 +!checkRequest:true<-
+	!checkDispenser;
+	?lastActionResult(Result);
+	?lastAction(Type);
+	if(not Result==failed_target & Type ==request){
 	-+requestblock(t);
-	?lastActionResult(result);
-	if(result==failed_target){
-	-+requestblock(f);
+	}
+	?thing(X, Y, Type, Details);
+	if(Type==dispenser & X==0 & Y==1){
+		-+requestblock(f);
 	}.
 	
 +actionID(ActionID):true <- 
 		if(stop(f) & getblock(f)){
 		!move;}
 		if(getblock(f) & requestblock(f)& stop(t)){
-		request(s);}
+		request(s);!checkRequest;}
 		if(getblock(f) &requestblock(t) & stop(t)){
-		!getBlock;}
-		if(getblock(t)){
-		skip;}.
+		attach(s);!checkAttach;}
+		if(getblock(t) & stop(f)){
+		!move;!checkTaskboard;}
+		skip;!checkTaskboard.
 		
 		
 +!move:true <-
@@ -74,10 +108,12 @@ hasgoal(f).
 	}
 	if(not norandomm(t)){
 		!randommove;
-	}.
+	}
+	skip.
 	
 +!goalmove: true<-
-	?goal(X,Y);
+	?goal(Type,X,Y,Block);
+	if(getblock(f)){
 	if(X>0){
 		move(e);
 	}
@@ -90,30 +126,66 @@ hasgoal(f).
 	if(Y>0){
 		move(s);
 	}
-	if(X==0 & Y==0){
+	 if(X==0 & Y==0){
 		-+stop(t);
 	}
-	-goal(X,Y);
+	}
+	if(getblock(t)){
+	if(X>1){
+		move(e);
+	}
+	if(X<=-2){
+		move(w);
+	}
+	if(Y<=-2){
+		move(n);
+	}	
+	if(Y>1){
+		move(s);
+	}
+	 if(X<=1 & X>=-1& Y<=1 & Y>=-1 & getblock(t)){
+		-+stop(t);
+	}
+	}
 	-+hasgoal(f).
 	
 		
 +!randommove: .random(Number)<-
 	if(Number <= 0.25){
+		if(not randomDirection(s)){
 		move(n);
-	}
-	if(Number<=0.50){
+		-+randomDirection(n);}
+		if(randomDirection(s)){
 		move(s);
+		-+randomDirection(s);
+		}
 	}
-	if(Number<=0.75){
+	if(Number<=0.50& Number > 0.25){
+		if(not randomDirection(n)){
+		move(s);
+		-+randomDirection(s);}
+		if(randomDirection(n)){
+		move(n);
+		-+randomDirection(n);
+		}
+	}
+	if(Number<=0.75& Number > 0.5 ){
+	if(not randomDirection(e)){
 		move(w);
-	}
-	if( Number <=1){
+		-+randomDirection(w);}
+		if(randomDirection(e)){
 		move(e);
+		-+randomDirection(e);
+		}
+	}
+	if( Number <=1& Number > 0.75 ){
+		if(not randomDirection(w)){
+		move(e);
+		-+randomDirection(e);}
+		if(randomDirection(w)){
+		move(w);
+		-+randomDirection(w);
+		}
 	}.
 
-+!getBlock:true<-
-		attach(s);
-		-+getblock(t);
-		-+stop(f);
-		-+hasgoal(f);
-		-+requestblock(f).
+	

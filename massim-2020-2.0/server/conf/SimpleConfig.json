@@ -27,7 +27,7 @@
       "steps" : 750,
       "randomSeed" : 17,
       "randomFail" : 0,
-      "entities" : {"standard" : 2},
+      "entities" : {"standard" : 15},
       "clusterBounds" : [2,3],
   
       "clearSteps" : 3,

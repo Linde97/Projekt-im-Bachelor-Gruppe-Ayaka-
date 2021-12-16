@@ -1,0 +1,893 @@
+[ NORMAL  ]  ##   Please press ENTER to start the tournament.
+[ NORMAL  ]  ##   Configuring random seed: 17
+[ NORMAL  ]  ##   config.randomFail: 0
+[ NORMAL  ]  ##   config.attachLimit: 10
+[ NORMAL  ]  ##   config.clearSteps: 3
+[ NORMAL  ]  ##   config.clusterBounds: 2, 3
+[ NORMAL  ]  ##   config.clearEnergyCost: 30
+[ NORMAL  ]  ##   config.disableDuration: 4
+[ NORMAL  ]  ##   config.maxEnergy: 300
+[ NORMAL  ]  ##   config.blockTypes: [1,2] -> 2
+[ NORMAL  ]  ##   config.dispensersBounds: [5,10]
+[ NORMAL  ]  ##   config.tasks.duration: [200,200]
+[ NORMAL  ]  ##   config.tasks.size: [1,1]
+[ NORMAL  ]  ##   config.tasks.rewardDecay: [1,2]
+[ NORMAL  ]  ##   config.tasks.probability: 0.05
+[ NORMAL  ]  ##   config.taskboards: 3
+[ NORMAL  ]  ##   config.distanceToTaskboards: 8
+[ NORMAL  ]  ##   config.tasks.lowerRewardLimit: 10
+[ NORMAL  ]  ##   config.events.chance: 0
+[ NORMAL  ]  ##   config.events.radius: 3 - 5
+[ NORMAL  ]  ##   config.events.warning: 5
+[ NORMAL  ]  ##   config.events.create: -3 - 1
+[ NORMAL  ]  ##   config.events.perimeter: 2
+[ NORMAL  ]  ##   Created dispenser(40,1,b0)
+[ NORMAL  ]  ##   Created dispenser(10,26,b0)
+[ NORMAL  ]  ##   Created dispenser(42,7,b0)
+[ NORMAL  ]  ##   Created dispenser(3,9,b0)
+[ NORMAL  ]  ##   Created dispenser(36,37,b0)
+[ NORMAL  ]  ##   Created dispenser(25,26,b0)
+[ NORMAL  ]  ##   Created dispenser(43,23,b0)
+[ NORMAL  ]  ##   Created dispenser(49,35,b0)
+[ NORMAL  ]  ##   Created dispenser(34,9,b0)
+[ NORMAL  ]  ##   Created dispenser(7,33,b0)
+[ NORMAL  ]  ##   Created dispenser(12,42,b1)
+[ NORMAL  ]  ##   Created dispenser(1,44,b1)
+[ NORMAL  ]  ##   Created dispenser(34,6,b1)
+[ NORMAL  ]  ##   Created dispenser(7,28,b1)
+[ NORMAL  ]  ##   Created dispenser(33,25,b1)
+[ NORMAL  ]  ##   Created Taskboard(43,8)
+[ NORMAL  ]  ##   Created Taskboard(45,14)
+[ NORMAL  ]  ##   Created Taskboard(39,20)
+[ NORMAL  ]  ##   Simulation at step 0
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 1
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 2
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 3
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 4
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 5
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 6
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 7
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 8
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 9
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 10
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 11
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 12
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 13
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 14
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 15
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 16
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 17
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 18
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 19
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 20
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 21
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 22
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 23
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 24
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 25
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 26
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 27
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 28
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 29
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 30
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 31
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 32
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 33
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 34
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 35
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 36
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 37
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 38
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 39
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 40
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 41
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 42
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 43
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 44
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 45
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 46
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 47
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 48
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 49
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 50
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 51
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 52
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 53
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   Simulation at step 54
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 55
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ NORMAL  ]  ##   got authentication: username=agentA2 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA2 authentication successful
+[ NORMAL  ]  ##   got authentication: username=agentA1 password=1 address=127.0.0.1
+[ NORMAL  ]  ##   agentA1 authentication successful
+[ NORMAL  ]  ##   No valid action available in time for agent agentA2.
+[ NORMAL  ]  ##   No valid action available in time for agent agentA1.
+[ NORMAL  ]  ##   Simulation at step 56
+[ NORMAL  ]  ##   Simulation at step 57
+[ NORMAL  ]  ##   Simulation at step 58
+[ NORMAL  ]  ##   Simulation at step 59
+[ NORMAL  ]  ##   Simulation at step 60
+[ NORMAL  ]  ##   Simulation at step 61
+[ NORMAL  ]  ##   Simulation at step 62
+[ NORMAL  ]  ##   Simulation at step 63
+[ NORMAL  ]  ##   Simulation at step 64
+[ NORMAL  ]  ##   Simulation at step 65
+[ NORMAL  ]  ##   Simulation at step 66
+[ NORMAL  ]  ##   Simulation at step 67
+[ NORMAL  ]  ##   Simulation at step 68
+[ NORMAL  ]  ##   Simulation at step 69
+[ NORMAL  ]  ##   Simulation at step 70
+[ NORMAL  ]  ##   Simulation at step 71
+[ NORMAL  ]  ##   Simulation at step 72
+[ NORMAL  ]  ##   Simulation at step 73
+[ NORMAL  ]  ##   Simulation at step 74
+[ NORMAL  ]  ##   Simulation at step 75
+[ NORMAL  ]  ##   Simulation at step 76
+[ NORMAL  ]  ##   Simulation at step 77
+[ NORMAL  ]  ##   Simulation at step 78
+[ NORMAL  ]  ##   Simulation at step 79
+[ NORMAL  ]  ##   Simulation at step 80
+[ NORMAL  ]  ##   Simulation at step 81
+[ NORMAL  ]  ##   Simulation at step 82
+[ NORMAL  ]  ##   Simulation at step 83
+[ NORMAL  ]  ##   Simulation at step 84
+[ NORMAL  ]  ##   Simulation at step 85
+[ NORMAL  ]  ##   Simulation at step 86
+[ NORMAL  ]  ##   Simulation at step 87
+[ NORMAL  ]  ##   Simulation at step 88
+[ NORMAL  ]  ##   Simulation at step 89
+[ NORMAL  ]  ##   Simulation at step 90
+[ NORMAL  ]  ##   Simulation at step 91
+[ NORMAL  ]  ##   Simulation at step 92
+[ NORMAL  ]  ##   Simulation at step 93
+[ NORMAL  ]  ##   Simulation at step 94
+[ NORMAL  ]  ##   Simulation at step 95
+[ NORMAL  ]  ##   Simulation at step 96
+[ NORMAL  ]  ##   Simulation at step 97
+[ NORMAL  ]  ##   Simulation at step 98
+[ NORMAL  ]  ##   Simulation at step 99
+[ NORMAL  ]  ##   Simulation at step 100
+[ NORMAL  ]  ##   Simulation at step 101
+[ NORMAL  ]  ##   Simulation at step 102
+[ NORMAL  ]  ##   Simulation at step 103
+[ NORMAL  ]  ##   Simulation at step 104
+[ NORMAL  ]  ##   Simulation at step 105
+[ NORMAL  ]  ##   Simulation at step 106
+[ NORMAL  ]  ##   Simulation at step 107
+[ NORMAL  ]  ##   Simulation at step 108
+[ NORMAL  ]  ##   Simulation at step 109
+[ NORMAL  ]  ##   Simulation at step 110
+[ NORMAL  ]  ##   Simulation at step 111
+[ NORMAL  ]  ##   Simulation at step 112
+[ NORMAL  ]  ##   Simulation at step 113
+[ NORMAL  ]  ##   Simulation at step 114
+[ NORMAL  ]  ##   Simulation at step 115
+[ NORMAL  ]  ##   Simulation at step 116
+[ NORMAL  ]  ##   Simulation at step 117
+[ NORMAL  ]  ##   Simulation at step 118
+[ NORMAL  ]  ##   Simulation at step 119
+[ NORMAL  ]  ##   Simulation at step 120
+[ NORMAL  ]  ##   Simulation at step 121
+[ NORMAL  ]  ##   Simulation at step 122
+[ NORMAL  ]  ##   Simulation at step 123
+[ NORMAL  ]  ##   Simulation at step 124
+[ NORMAL  ]  ##   Simulation at step 125
+[ NORMAL  ]  ##   Simulation at step 126
+[ NORMAL  ]  ##   Simulation at step 127
+[ NORMAL  ]  ##   Simulation at step 128
+[ NORMAL  ]  ##   Simulation at step 129
+[ NORMAL  ]  ##   Simulation at step 130
+[ NORMAL  ]  ##   Simulation at step 131
+[ NORMAL  ]  ##   Simulation at step 132
+[ NORMAL  ]  ##   Simulation at step 133
+[ NORMAL  ]  ##   Simulation at step 134
+[ NORMAL  ]  ##   Simulation at step 135
+[ NORMAL  ]  ##   Simulation at step 136
+[ NORMAL  ]  ##   Simulation at step 137
+[ NORMAL  ]  ##   Simulation at step 138
+[ NORMAL  ]  ##   Simulation at step 139
+[ NORMAL  ]  ##   Simulation at step 140
+[ NORMAL  ]  ##   Simulation at step 141
+[ NORMAL  ]  ##   Simulation at step 142
+[ NORMAL  ]  ##   Simulation at step 143
+[ NORMAL  ]  ##   Simulation at step 144
+[ NORMAL  ]  ##   Simulation at step 145
+[ NORMAL  ]  ##   Simulation at step 146
+[ NORMAL  ]  ##   Simulation at step 147
+[ NORMAL  ]  ##   Simulation at step 148
+[ NORMAL  ]  ##   Simulation at step 149
+[ NORMAL  ]  ##   Simulation at step 150
+[ NORMAL  ]  ##   Simulation at step 151
+[ NORMAL  ]  ##   Simulation at step 152
+[ NORMAL  ]  ##   Simulation at step 153
+[ NORMAL  ]  ##   Simulation at step 154
+[ NORMAL  ]  ##   Simulation at step 155
+[ NORMAL  ]  ##   Simulation at step 156
+[ NORMAL  ]  ##   Simulation at step 157
+[ NORMAL  ]  ##   Simulation at step 158
+[ NORMAL  ]  ##   Simulation at step 159
+[ NORMAL  ]  ##   Simulation at step 160
+[ NORMAL  ]  ##   Simulation at step 161
+[ NORMAL  ]  ##   Simulation at step 162
+[ NORMAL  ]  ##   Simulation at step 163
+[ NORMAL  ]  ##   Simulation at step 164
+[ NORMAL  ]  ##   Simulation at step 165
+[ NORMAL  ]  ##   Simulation at step 166
+[ NORMAL  ]  ##   Simulation at step 167
+[ NORMAL  ]  ##   Simulation at step 168
+[ NORMAL  ]  ##   Simulation at step 169
+[ NORMAL  ]  ##   Simulation at step 170
+[ NORMAL  ]  ##   Simulation at step 171
+[ NORMAL  ]  ##   Simulation at step 172
+[ NORMAL  ]  ##   Simulation at step 173
+[ NORMAL  ]  ##   Simulation at step 174
+[ NORMAL  ]  ##   Simulation at step 175
+[ NORMAL  ]  ##   Simulation at step 176
+[ NORMAL  ]  ##   Simulation at step 177
+[ NORMAL  ]  ##   Simulation at step 178
+[ NORMAL  ]  ##   Simulation at step 179
+[ NORMAL  ]  ##   Simulation at step 180
+[ NORMAL  ]  ##   Simulation at step 181
+[ NORMAL  ]  ##   Simulation at step 182
+[ NORMAL  ]  ##   Simulation at step 183
+[ NORMAL  ]  ##   Simulation at step 184
+[ NORMAL  ]  ##   Simulation at step 185
+[ NORMAL  ]  ##   Simulation at step 186
+[ NORMAL  ]  ##   Simulation at step 187
+[ NORMAL  ]  ##   Simulation at step 188
+[ NORMAL  ]  ##   Simulation at step 189
+[ NORMAL  ]  ##   Simulation at step 190
+[ NORMAL  ]  ##   Simulation at step 191
+[ NORMAL  ]  ##   Simulation at step 192
+[ NORMAL  ]  ##   Simulation at step 193
+[ NORMAL  ]  ##   Simulation at step 194
+[ NORMAL  ]  ##   Simulation at step 195
+[ NORMAL  ]  ##   Simulation at step 196
+[ NORMAL  ]  ##   Simulation at step 197
+[ NORMAL  ]  ##   Simulation at step 198
+[ NORMAL  ]  ##   Simulation at step 199
+[ NORMAL  ]  ##   Simulation at step 200
+[ NORMAL  ]  ##   Simulation at step 201
+[ NORMAL  ]  ##   Simulation at step 202
+[ NORMAL  ]  ##   Simulation at step 203
+[ NORMAL  ]  ##   Simulation at step 204
+[ NORMAL  ]  ##   Simulation at step 205
+[ NORMAL  ]  ##   Simulation at step 206
+[ NORMAL  ]  ##   Simulation at step 207
+[ NORMAL  ]  ##   Simulation at step 208
+[ NORMAL  ]  ##   Simulation at step 209
+[ NORMAL  ]  ##   Simulation at step 210
+[ NORMAL  ]  ##   Simulation at step 211
+[ NORMAL  ]  ##   Simulation at step 212
+[ NORMAL  ]  ##   Simulation at step 213
+[ NORMAL  ]  ##   Simulation at step 214
+[ NORMAL  ]  ##   Simulation at step 215
+[ NORMAL  ]  ##   Simulation at step 216
+[ NORMAL  ]  ##   Simulation at step 217
+[ NORMAL  ]  ##   Simulation at step 218
+[ NORMAL  ]  ##   Simulation at step 219
+[ NORMAL  ]  ##   Simulation at step 220
+[ NORMAL  ]  ##   Simulation at step 221
+[ NORMAL  ]  ##   Simulation at step 222
+[ NORMAL  ]  ##   Simulation at step 223
+[ NORMAL  ]  ##   Simulation at step 224
+[ NORMAL  ]  ##   Simulation at step 225
+[ NORMAL  ]  ##   Simulation at step 226
+[ NORMAL  ]  ##   Simulation at step 227
+[ NORMAL  ]  ##   Simulation at step 228
+[ NORMAL  ]  ##   Simulation at step 229
+[ NORMAL  ]  ##   Simulation at step 230
+[ NORMAL  ]  ##   Simulation at step 231
+[ NORMAL  ]  ##   Simulation at step 232
+[ NORMAL  ]  ##   Simulation at step 233
+[ NORMAL  ]  ##   Simulation at step 234
+[ NORMAL  ]  ##   Simulation at step 235
+[ NORMAL  ]  ##   Simulation at step 236
+[ NORMAL  ]  ##   Simulation at step 237
+[ NORMAL  ]  ##   Simulation at step 238
+[ NORMAL  ]  ##   Simulation at step 239
+[ NORMAL  ]  ##   Simulation at step 240
+[ NORMAL  ]  ##   Simulation at step 241
+[ NORMAL  ]  ##   Simulation at step 242
+[ NORMAL  ]  ##   Simulation at step 243
+[ NORMAL  ]  ##   Simulation at step 244
+[ NORMAL  ]  ##   Simulation at step 245
+[ NORMAL  ]  ##   Simulation at step 246
+[ NORMAL  ]  ##   Simulation at step 247
+[ NORMAL  ]  ##   Simulation at step 248
+[ NORMAL  ]  ##   Simulation at step 249
+[ NORMAL  ]  ##   Simulation at step 250
+[ NORMAL  ]  ##   Simulation at step 251
+[ NORMAL  ]  ##   Simulation at step 252
+[ NORMAL  ]  ##   Simulation at step 253
+[ NORMAL  ]  ##   Simulation at step 254
+[ NORMAL  ]  ##   Simulation at step 255
+[ NORMAL  ]  ##   Simulation at step 256
+[ NORMAL  ]  ##   Simulation at step 257
+[ NORMAL  ]  ##   Simulation at step 258
+[ NORMAL  ]  ##   Simulation at step 259
+[ NORMAL  ]  ##   Simulation at step 260
+[ NORMAL  ]  ##   Simulation at step 261
+[ NORMAL  ]  ##   Simulation at step 262
+[ NORMAL  ]  ##   Simulation at step 263
+[ NORMAL  ]  ##   Simulation at step 264
+[ NORMAL  ]  ##   Simulation at step 265
+[ NORMAL  ]  ##   Simulation at step 266
+[ NORMAL  ]  ##   Simulation at step 267
+[ NORMAL  ]  ##   Simulation at step 268
+[ NORMAL  ]  ##   Simulation at step 269
+[ NORMAL  ]  ##   Simulation at step 270
+[ NORMAL  ]  ##   Simulation at step 271
+[ NORMAL  ]  ##   Simulation at step 272
+[ NORMAL  ]  ##   Simulation at step 273
+[ NORMAL  ]  ##   Simulation at step 274
+[ NORMAL  ]  ##   Simulation at step 275
+[ NORMAL  ]  ##   Simulation at step 276
+[ NORMAL  ]  ##   Simulation at step 277
+[ NORMAL  ]  ##   Simulation at step 278
+[ NORMAL  ]  ##   Simulation at step 279
+[ NORMAL  ]  ##   Simulation at step 280
+[ NORMAL  ]  ##   Simulation at step 281
+[ NORMAL  ]  ##   Simulation at step 282
+[ NORMAL  ]  ##   Simulation at step 283
+[ NORMAL  ]  ##   Simulation at step 284
+[ NORMAL  ]  ##   Simulation at step 285
+[ NORMAL  ]  ##   Simulation at step 286
+[ NORMAL  ]  ##   Simulation at step 287
+[ NORMAL  ]  ##   Simulation at step 288
+[ NORMAL  ]  ##   Simulation at step 289
+[ NORMAL  ]  ##   Simulation at step 290
+[ NORMAL  ]  ##   Simulation at step 291
+[ NORMAL  ]  ##   Simulation at step 292
+[ NORMAL  ]  ##   Simulation at step 293
+[ NORMAL  ]  ##   Simulation at step 294
+[ NORMAL  ]  ##   Simulation at step 295
+[ NORMAL  ]  ##   Simulation at step 296
+[ NORMAL  ]  ##   Simulation at step 297
+[ NORMAL  ]  ##   Simulation at step 298
+[ NORMAL  ]  ##   Simulation at step 299
+[ NORMAL  ]  ##   Simulation at step 300
+[ NORMAL  ]  ##   Simulation at step 301
+[ NORMAL  ]  ##   Simulation at step 302
+[ NORMAL  ]  ##   Simulation at step 303
+[ NORMAL  ]  ##   Simulation at step 304
+[ NORMAL  ]  ##   Simulation at step 305
+[ NORMAL  ]  ##   Simulation at step 306
+[ NORMAL  ]  ##   Simulation at step 307
+[ NORMAL  ]  ##   Simulation at step 308
+[ NORMAL  ]  ##   Simulation at step 309
+[ NORMAL  ]  ##   Simulation at step 310
+[ NORMAL  ]  ##   Simulation at step 311
+[ NORMAL  ]  ##   Simulation at step 312
+[ NORMAL  ]  ##   Simulation at step 313
+[ NORMAL  ]  ##   Simulation at step 314
+[ NORMAL  ]  ##   Simulation at step 315
+[ NORMAL  ]  ##   Simulation at step 316
+[ NORMAL  ]  ##   Simulation at step 317
+[ NORMAL  ]  ##   Simulation at step 318
+[ NORMAL  ]  ##   Simulation at step 319
+[ NORMAL  ]  ##   Simulation at step 320
+[ NORMAL  ]  ##   Simulation at step 321
+[ NORMAL  ]  ##   Simulation at step 322
+[ NORMAL  ]  ##   Simulation at step 323
+[ NORMAL  ]  ##   Simulation at step 324
+[ NORMAL  ]  ##   Simulation at step 325
+[ NORMAL  ]  ##   Simulation at step 326
+[ NORMAL  ]  ##   Simulation at step 327
+[ NORMAL  ]  ##   Simulation at step 328
+[ NORMAL  ]  ##   Simulation at step 329
+[ NORMAL  ]  ##   Simulation at step 330
+[ NORMAL  ]  ##   Simulation at step 331
+[ NORMAL  ]  ##   Simulation at step 332
+[ NORMAL  ]  ##   Simulation at step 333
+[ NORMAL  ]  ##   Simulation at step 334
+[ NORMAL  ]  ##   Simulation at step 335
+[ NORMAL  ]  ##   Simulation at step 336
+[ NORMAL  ]  ##   Simulation at step 337
+[ NORMAL  ]  ##   Simulation at step 338
+[ NORMAL  ]  ##   Simulation at step 339
+[ NORMAL  ]  ##   Simulation at step 340
+[ NORMAL  ]  ##   Simulation at step 341
+[ NORMAL  ]  ##   Simulation at step 342
+[ NORMAL  ]  ##   Simulation at step 343
+[ NORMAL  ]  ##   Simulation at step 344
+[ NORMAL  ]  ##   Simulation at step 345
+[ NORMAL  ]  ##   Simulation at step 346
+[ NORMAL  ]  ##   Simulation at step 347
+[ NORMAL  ]  ##   Simulation at step 348
+[ NORMAL  ]  ##   Simulation at step 349
+[ NORMAL  ]  ##   Simulation at step 350
+[ NORMAL  ]  ##   Simulation at step 351
+[ NORMAL  ]  ##   Simulation at step 352
+[ NORMAL  ]  ##   Simulation at step 353
+[ NORMAL  ]  ##   Simulation at step 354
+[ NORMAL  ]  ##   Simulation at step 355
+[ NORMAL  ]  ##   Simulation at step 356
+[ NORMAL  ]  ##   Simulation at step 357
+[ NORMAL  ]  ##   Simulation at step 358
+[ NORMAL  ]  ##   Simulation at step 359
+[ NORMAL  ]  ##   Simulation at step 360
+[ NORMAL  ]  ##   Simulation at step 361
+[ NORMAL  ]  ##   Simulation at step 362
+[ NORMAL  ]  ##   Simulation at step 363
+[ NORMAL  ]  ##   Simulation at step 364
+[ NORMAL  ]  ##   Simulation at step 365
+[ NORMAL  ]  ##   Simulation at step 366
+[ NORMAL  ]  ##   Simulation at step 367
+[ NORMAL  ]  ##   Simulation at step 368
+[ NORMAL  ]  ##   Simulation at step 369
+[ NORMAL  ]  ##   Simulation at step 370
+[ NORMAL  ]  ##   Simulation at step 371
+[ NORMAL  ]  ##   Simulation at step 372
+[ NORMAL  ]  ##   Simulation at step 373
+[ NORMAL  ]  ##   Simulation at step 374
+[ NORMAL  ]  ##   Simulation at step 375
+[ NORMAL  ]  ##   Simulation at step 376
+[ NORMAL  ]  ##   Simulation at step 377
+[ NORMAL  ]  ##   Simulation at step 378
+[ NORMAL  ]  ##   Simulation at step 379
+[ NORMAL  ]  ##   Simulation at step 380
+[ NORMAL  ]  ##   Simulation at step 381
+[ NORMAL  ]  ##   Simulation at step 382
+[ NORMAL  ]  ##   Simulation at step 383
+[ NORMAL  ]  ##   Simulation at step 384
+[ NORMAL  ]  ##   Simulation at step 385
+[ NORMAL  ]  ##   Simulation at step 386
+[ NORMAL  ]  ##   Simulation at step 387
+[ NORMAL  ]  ##   Simulation at step 388
+[ NORMAL  ]  ##   Simulation at step 389
+[ NORMAL  ]  ##   Simulation at step 390
+[ NORMAL  ]  ##   Simulation at step 391
+[ NORMAL  ]  ##   Simulation at step 392
+[ NORMAL  ]  ##   Simulation at step 393
+[ NORMAL  ]  ##   Simulation at step 394
+[ NORMAL  ]  ##   Simulation at step 395
+[ NORMAL  ]  ##   Simulation at step 396
+[ NORMAL  ]  ##   Simulation at step 397
+[ NORMAL  ]  ##   Simulation at step 398
+[ NORMAL  ]  ##   Simulation at step 399
+[ NORMAL  ]  ##   Simulation at step 400
+[ NORMAL  ]  ##   Simulation at step 401
+[ NORMAL  ]  ##   Simulation at step 402
+[ NORMAL  ]  ##   Simulation at step 403
+[ NORMAL  ]  ##   Simulation at step 404
+[ NORMAL  ]  ##   Simulation at step 405
+[ NORMAL  ]  ##   Simulation at step 406
+[ NORMAL  ]  ##   Simulation at step 407
+[ NORMAL  ]  ##   Simulation at step 408
+[ NORMAL  ]  ##   Simulation at step 409
+[ NORMAL  ]  ##   Simulation at step 410
+[ NORMAL  ]  ##   Simulation at step 411
+[ NORMAL  ]  ##   Simulation at step 412
+[ NORMAL  ]  ##   Simulation at step 413
+[ NORMAL  ]  ##   Simulation at step 414
+[ NORMAL  ]  ##   Simulation at step 415
+[ NORMAL  ]  ##   Simulation at step 416
+[ NORMAL  ]  ##   Simulation at step 417
+[ NORMAL  ]  ##   Simulation at step 418
+[ NORMAL  ]  ##   Simulation at step 419
+[ NORMAL  ]  ##   Simulation at step 420
+[ NORMAL  ]  ##   Simulation at step 421
+[ NORMAL  ]  ##   Simulation at step 422
+[ NORMAL  ]  ##   Simulation at step 423
+[ NORMAL  ]  ##   Simulation at step 424
+[ NORMAL  ]  ##   Simulation at step 425
+[ NORMAL  ]  ##   Simulation at step 426
+[ NORMAL  ]  ##   Simulation at step 427
+[ NORMAL  ]  ##   Simulation at step 428
+[ NORMAL  ]  ##   Simulation at step 429
+[ NORMAL  ]  ##   Simulation at step 430
+[ NORMAL  ]  ##   Simulation at step 431
+[ NORMAL  ]  ##   Simulation at step 432
+[ NORMAL  ]  ##   Simulation at step 433
+[ NORMAL  ]  ##   Simulation at step 434
+[ NORMAL  ]  ##   Simulation at step 435
+[ NORMAL  ]  ##   Simulation at step 436
+[ NORMAL  ]  ##   Simulation at step 437
+[ NORMAL  ]  ##   Simulation at step 438
+[ NORMAL  ]  ##   Simulation at step 439
+[ NORMAL  ]  ##   Simulation at step 440
+[ NORMAL  ]  ##   Simulation at step 441
+[ NORMAL  ]  ##   Simulation at step 442
+[ NORMAL  ]  ##   Simulation at step 443
+[ NORMAL  ]  ##   Simulation at step 444
+[ NORMAL  ]  ##   Simulation at step 445
+[ NORMAL  ]  ##   Simulation at step 446
+[ NORMAL  ]  ##   Simulation at step 447
+[ NORMAL  ]  ##   Simulation at step 448
+[ NORMAL  ]  ##   Simulation at step 449
+[ NORMAL  ]  ##   Simulation at step 450
+[ NORMAL  ]  ##   Simulation at step 451
+[ NORMAL  ]  ##   Simulation at step 452
+[ NORMAL  ]  ##   Simulation at step 453
+[ NORMAL  ]  ##   Simulation at step 454
+[ NORMAL  ]  ##   Simulation at step 455
+[ NORMAL  ]  ##   Simulation at step 456
+[ NORMAL  ]  ##   Simulation at step 457
+[ NORMAL  ]  ##   Simulation at step 458
+[ NORMAL  ]  ##   Simulation at step 459
+[ NORMAL  ]  ##   Simulation at step 460
+[ NORMAL  ]  ##   Simulation at step 461
+[ NORMAL  ]  ##   Simulation at step 462
+[ NORMAL  ]  ##   Simulation at step 463
+[ NORMAL  ]  ##   Simulation at step 464
+[ NORMAL  ]  ##   Simulation at step 465
+[ NORMAL  ]  ##   Simulation at step 466
+[ NORMAL  ]  ##   Simulation at step 467
+[ NORMAL  ]  ##   Simulation at step 468
+[ NORMAL  ]  ##   Simulation at step 469
+[ NORMAL  ]  ##   Simulation at step 470
+[ NORMAL  ]  ##   Simulation at step 471
+[ NORMAL  ]  ##   Simulation at step 472
+[ NORMAL  ]  ##   Simulation at step 473
+[ NORMAL  ]  ##   Simulation at step 474
+[ NORMAL  ]  ##   Simulation at step 475
+[ NORMAL  ]  ##   Simulation at step 476
+[ NORMAL  ]  ##   Simulation at step 477
+[ NORMAL  ]  ##   Simulation at step 478
+[ NORMAL  ]  ##   Simulation at step 479
+[ NORMAL  ]  ##   Simulation at step 480
+[ NORMAL  ]  ##   Simulation at step 481
+[ NORMAL  ]  ##   Simulation at step 482
+[ NORMAL  ]  ##   Simulation at step 483
+[ NORMAL  ]  ##   Simulation at step 484
+[ NORMAL  ]  ##   Simulation at step 485
+[ NORMAL  ]  ##   Simulation at step 486
+[ NORMAL  ]  ##   Simulation at step 487
+[ NORMAL  ]  ##   Simulation at step 488
+[ NORMAL  ]  ##   Simulation at step 489
+[ NORMAL  ]  ##   Simulation at step 490
+[ NORMAL  ]  ##   Simulation at step 491
+[ NORMAL  ]  ##   Simulation at step 492
+[ NORMAL  ]  ##   Simulation at step 493
+[ NORMAL  ]  ##   Simulation at step 494
+[ NORMAL  ]  ##   Simulation at step 495
+[ NORMAL  ]  ##   Simulation at step 496
+[ NORMAL  ]  ##   Simulation at step 497
+[ NORMAL  ]  ##   Simulation at step 498
+[ NORMAL  ]  ##   Simulation at step 499
+[ NORMAL  ]  ##   Simulation at step 500
+[ NORMAL  ]  ##   Simulation at step 501
+[ NORMAL  ]  ##   Simulation at step 502
+[ NORMAL  ]  ##   Simulation at step 503
+[ NORMAL  ]  ##   Simulation at step 504
+[ NORMAL  ]  ##   Simulation at step 505
+[ NORMAL  ]  ##   Simulation at step 506
+[ NORMAL  ]  ##   Simulation at step 507
+[ NORMAL  ]  ##   Simulation at step 508
+[ NORMAL  ]  ##   Simulation at step 509
+[ NORMAL  ]  ##   Simulation at step 510
+[ NORMAL  ]  ##   Simulation at step 511
+[ NORMAL  ]  ##   Simulation at step 512
+[ NORMAL  ]  ##   Simulation at step 513
+[ NORMAL  ]  ##   Simulation at step 514
+[ NORMAL  ]  ##   Simulation at step 515
+[ NORMAL  ]  ##   Simulation at step 516
+[ NORMAL  ]  ##   Simulation at step 517
+[ NORMAL  ]  ##   Simulation at step 518
+[ NORMAL  ]  ##   Simulation at step 519
+[ NORMAL  ]  ##   Simulation at step 520
+[ NORMAL  ]  ##   Simulation at step 521
+[ NORMAL  ]  ##   Simulation at step 522
+[ NORMAL  ]  ##   Simulation at step 523
+[ NORMAL  ]  ##   Simulation at step 524
+[ NORMAL  ]  ##   Simulation at step 525
+[ NORMAL  ]  ##   Simulation at step 526
+[ NORMAL  ]  ##   Simulation at step 527
+[ NORMAL  ]  ##   Simulation at step 528
+[ NORMAL  ]  ##   Simulation at step 529
+[ NORMAL  ]  ##   Simulation at step 530
+[ NORMAL  ]  ##   Simulation at step 531
+[ NORMAL  ]  ##   Simulation at step 532
+[ NORMAL  ]  ##   Simulation at step 533
+[ NORMAL  ]  ##   Simulation at step 534
+[ NORMAL  ]  ##   Simulation at step 535
+[ NORMAL  ]  ##   Simulation at step 536
+[ NORMAL  ]  ##   Simulation at step 537
+[ NORMAL  ]  ##   Simulation at step 538
+[ NORMAL  ]  ##   Simulation at step 539
+[ NORMAL  ]  ##   Simulation at step 540
+[ NORMAL  ]  ##   Simulation at step 541
+[ NORMAL  ]  ##   Simulation at step 542
+[ NORMAL  ]  ##   Simulation at step 543
+[ NORMAL  ]  ##   Simulation at step 544
+[ NORMAL  ]  ##   Simulation at step 545
+[ NORMAL  ]  ##   Simulation at step 546
+[ NORMAL  ]  ##   Simulation at step 547
+[ NORMAL  ]  ##   Simulation at step 548
+[ NORMAL  ]  ##   Simulation at step 549
+[ NORMAL  ]  ##   Simulation at step 550
+[ NORMAL  ]  ##   Simulation at step 551
+[ NORMAL  ]  ##   Simulation at step 552
+[ NORMAL  ]  ##   Simulation at step 553
+[ NORMAL  ]  ##   Simulation at step 554
+[ NORMAL  ]  ##   Simulation at step 555
+[ NORMAL  ]  ##   Simulation at step 556
+[ NORMAL  ]  ##   Simulation at step 557
+[ NORMAL  ]  ##   Simulation at step 558
+[ NORMAL  ]  ##   Simulation at step 559
+[ NORMAL  ]  ##   Simulation at step 560
+[ NORMAL  ]  ##   Simulation at step 561
+[ NORMAL  ]  ##   Simulation at step 562
+[ NORMAL  ]  ##   Simulation at step 563
+[ NORMAL  ]  ##   Simulation at step 564
+[ NORMAL  ]  ##   Simulation at step 565
+[ NORMAL  ]  ##   Simulation at step 566
+[ NORMAL  ]  ##   Simulation at step 567
+[ NORMAL  ]  ##   Simulation at step 568
+[ NORMAL  ]  ##   Simulation at step 569
+[ NORMAL  ]  ##   Simulation at step 570
+[ NORMAL  ]  ##   Simulation at step 571
+[ NORMAL  ]  ##   Simulation at step 572
+[ NORMAL  ]  ##   Simulation at step 573
+[ NORMAL  ]  ##   Simulation at step 574
+[ NORMAL  ]  ##   Simulation at step 575
+[ NORMAL  ]  ##   Simulation at step 576
+[ NORMAL  ]  ##   Simulation at step 577
+[ NORMAL  ]  ##   Simulation at step 578
+[ NORMAL  ]  ##   Simulation at step 579
+[ NORMAL  ]  ##   Simulation at step 580
+[ NORMAL  ]  ##   Simulation at step 581
+[ NORMAL  ]  ##   Simulation at step 582
+[ NORMAL  ]  ##   Simulation at step 583
+[ NORMAL  ]  ##   Simulation at step 584
+[ NORMAL  ]  ##   Simulation at step 585
+[ NORMAL  ]  ##   Simulation at step 586
+[ NORMAL  ]  ##   Simulation at step 587
+[ NORMAL  ]  ##   Simulation at step 588
+[ NORMAL  ]  ##   Simulation at step 589
+[ NORMAL  ]  ##   Simulation at step 590
+[ NORMAL  ]  ##   Simulation at step 591
+[ NORMAL  ]  ##   Simulation at step 592
+[ NORMAL  ]  ##   Simulation at step 593
+[ NORMAL  ]  ##   Simulation at step 594
+[ NORMAL  ]  ##   Simulation at step 595
+[ NORMAL  ]  ##   Simulation at step 596
+[ NORMAL  ]  ##   Simulation at step 597
+[ NORMAL  ]  ##   Simulation at step 598
+[ NORMAL  ]  ##   Simulation at step 599
+[ NORMAL  ]  ##   Simulation at step 600
+[ NORMAL  ]  ##   Simulation at step 601
+[ NORMAL  ]  ##   Simulation at step 602
+[ NORMAL  ]  ##   Simulation at step 603
+[ NORMAL  ]  ##   Simulation at step 604
+[ NORMAL  ]  ##   Simulation at step 605
+[ NORMAL  ]  ##   Simulation at step 606
+[ NORMAL  ]  ##   Simulation at step 607
+[ NORMAL  ]  ##   Simulation at step 608
+[ NORMAL  ]  ##   Simulation at step 609
+[ NORMAL  ]  ##   Simulation at step 610
+[ NORMAL  ]  ##   Simulation at step 611
+[ NORMAL  ]  ##   Simulation at step 612
+[ NORMAL  ]  ##   Simulation at step 613
+[ NORMAL  ]  ##   Simulation at step 614
+[ NORMAL  ]  ##   Simulation at step 615
+[ NORMAL  ]  ##   Simulation at step 616
+[ NORMAL  ]  ##   Simulation at step 617
+[ NORMAL  ]  ##   Simulation at step 618
+[ NORMAL  ]  ##   Simulation at step 619
+[ NORMAL  ]  ##   Simulation at step 620
+[ NORMAL  ]  ##   Simulation at step 621
+[ NORMAL  ]  ##   Simulation at step 622
+[ NORMAL  ]  ##   Simulation at step 623
+[ NORMAL  ]  ##   Simulation at step 624
+[ NORMAL  ]  ##   Simulation at step 625
+[ NORMAL  ]  ##   Simulation at step 626
+[ NORMAL  ]  ##   Simulation at step 627
+[ NORMAL  ]  ##   Simulation at step 628
+[ NORMAL  ]  ##   Simulation at step 629
+[ NORMAL  ]  ##   Simulation at step 630
+[ NORMAL  ]  ##   Simulation at step 631
+[ NORMAL  ]  ##   Simulation at step 632
+[ NORMAL  ]  ##   Simulation at step 633
+[ NORMAL  ]  ##   Simulation at step 634
+[ NORMAL  ]  ##   Simulation at step 635
+[ NORMAL  ]  ##   Simulation at step 636
+[ NORMAL  ]  ##   Simulation at step 637
+[ NORMAL  ]  ##   Simulation at step 638
+[ NORMAL  ]  ##   Simulation at step 639
+[ NORMAL  ]  ##   Simulation at step 640
+[ NORMAL  ]  ##   Simulation at step 641
+[ NORMAL  ]  ##   Simulation at step 642
+[ NORMAL  ]  ##   Simulation at step 643
+[ NORMAL  ]  ##   Simulation at step 644
+[ NORMAL  ]  ##   Simulation at step 645
+[ NORMAL  ]  ##   Simulation at step 646
+[ NORMAL  ]  ##   Simulation at step 647
+[ NORMAL  ]  ##   Simulation at step 648
+[ NORMAL  ]  ##   Simulation at step 649
+[ NORMAL  ]  ##   Simulation at step 650
+[ NORMAL  ]  ##   Simulation at step 651
+[ NORMAL  ]  ##   Simulation at step 652
+[ NORMAL  ]  ##   Simulation at step 653
+[ NORMAL  ]  ##   Simulation at step 654
+[ NORMAL  ]  ##   Simulation at step 655
+[ NORMAL  ]  ##   Simulation at step 656
+[ NORMAL  ]  ##   Simulation at step 657
+[ NORMAL  ]  ##   Simulation at step 658
+[ NORMAL  ]  ##   Simulation at step 659
+[ NORMAL  ]  ##   Simulation at step 660
+[ NORMAL  ]  ##   Simulation at step 661
+[ NORMAL  ]  ##   Simulation at step 662
+[ NORMAL  ]  ##   Simulation at step 663
+[ NORMAL  ]  ##   Simulation at step 664
+[ NORMAL  ]  ##   Simulation at step 665
+[ NORMAL  ]  ##   Simulation at step 666
+[ NORMAL  ]  ##   Simulation at step 667
+[ NORMAL  ]  ##   Simulation at step 668
+[ NORMAL  ]  ##   Simulation at step 669
+[ NORMAL  ]  ##   Simulation at step 670
+[ NORMAL  ]  ##   Simulation at step 671
+[ NORMAL  ]  ##   Simulation at step 672
+[ NORMAL  ]  ##   Simulation at step 673
+[ NORMAL  ]  ##   Simulation at step 674
+[ NORMAL  ]  ##   Simulation at step 675
+[ NORMAL  ]  ##   Simulation at step 676
+[ NORMAL  ]  ##   Simulation at step 677
+[ NORMAL  ]  ##   Simulation at step 678
+[ NORMAL  ]  ##   Simulation at step 679
+[ NORMAL  ]  ##   Simulation at step 680
+[ NORMAL  ]  ##   Simulation at step 681
+[ NORMAL  ]  ##   Simulation at step 682
+[ NORMAL  ]  ##   Simulation at step 683
+[ NORMAL  ]  ##   Simulation at step 684
+[ NORMAL  ]  ##   Simulation at step 685
+[ NORMAL  ]  ##   Simulation at step 686
+[ NORMAL  ]  ##   Simulation at step 687
+[ NORMAL  ]  ##   Simulation at step 688
+[ NORMAL  ]  ##   Simulation at step 689
+[ NORMAL  ]  ##   Simulation at step 690
+[ NORMAL  ]  ##   Simulation at step 691
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.
+[ ERROR  ]  ##   Error receiving json object. Stop receiving.

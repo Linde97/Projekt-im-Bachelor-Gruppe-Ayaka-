@@ -13,6 +13,6 @@ MAS mAPC2018 {
 	environment: jason.eis.EISAdapter
 
     agents:
-		connectionA #2;
+		connectionA #15;
 }
 
